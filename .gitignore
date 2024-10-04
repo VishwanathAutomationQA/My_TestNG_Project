@@ -1,0 +1,6 @@
+/.mvn/
+/.settings/
+/chromedriver/
+/logs/
+/msedgedriver/
+/reports/
