@@ -1,5 +1,6 @@
 package tests;
 
+import java.io.IOException;
 import java.rmi.UnexpectedException;
 import java.time.Duration;
 
@@ -12,28 +13,37 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import utilities.ReadTestData;
+
 public class DriverClass {
 
 	public WebDriver driver;
 
 	@BeforeClass
-	public void setDriver() throws UnexpectedException {
-
-		String browser = System.getProperty("browser", "chrome");
+	public void setDriver() throws IOException {
+		
+		String browser = System.getProperty("browser", ReadTestData.readPropFile("browserName"));
 		switch(browser) {
 		case "chrome" : driver = new ChromeDriver();
-		
-		break;
+		      break;
 		case "edge" : driver = new EdgeDriver(); 
-		break;
+		      break;
 		case "safari" : driver = new SafariDriver(); 
-		break;
+		      break;
 		default : throw new UnexpectedException(browser);
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.get("https://opensource-demo.orangehrmlive.com/auth/login");
-//		driver.get("https://demo.opencart.com/en-gb?route=account/register");
+
+		String env = System.getProperty("env", ReadTestData.readPropFile("qa1URL"));
+		switch (env) {
+		case "qa1" : driver.get(ReadTestData.readPropFile("qa1URL"));
+		      break;
+		case "qa2" : driver.get(ReadTestData.readPropFile("qa2URL"));
+		      break;
+		default:
+			throw new UnexpectedException(env);
+		}
 	}
 
 	@AfterClass
