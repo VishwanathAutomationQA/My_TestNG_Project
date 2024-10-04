@@ -1,11 +1,11 @@
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/pageObjects/BasePage.java
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/pageObjects/Homepage.java
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/pageObjects/LoginPage.java
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/pageObjects/RegistrationOpenCart.java
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/tests/DriverClass.java
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/tests/TC100_LoginTest.java
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/tests/TC101_RegistrationTest.java
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/utilities/DataGenerator.java
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/utilities/ExtentReportManager.java
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/utilities/ReadTestData.java
-/Users/ecommmac1/MY_PROJECTS/orangeHRM/src/test/java/utilities/WebActions.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/pageObjects/BasePage.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/pageObjects/Homepage.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/pageObjects/LoginPage.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/pageObjects/RegistrationOpenCart.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/tests/DriverClass.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/tests/TC100_LoginTest.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/tests/TC101_RegistrationTest.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/utilities/DataGenerator.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/utilities/ExtentReportManager.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/utilities/ReadTestData.java
+/Users/ecommmac1/Desktop/untitled folder 7/My_TestNG_Project/src/test/java/utilities/WebActions.java
