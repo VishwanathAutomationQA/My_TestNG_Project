@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-04T01:48:50 IST" name="AllTest" finished-at="2024-10-04T01:48:56 IST" duration-ms="6780">
+    <groups>
+      <group name="Smooke">
+        <method signature="TC100_LoginTest.TC_100_Login()[pri:1, instance:tests.TC100_LoginTest@7d286fb6]" name="TC_100_Login" class="tests.TC100_LoginTest"/>
+      </group> <!-- Smooke -->
+      <group name="Regression">
+        <method signature="TC101_RegistrationTest.TC_101_Registration()[pri:1, instance:tests.TC101_RegistrationTest@60b4beb4]" name="TC_101_Registration" class="tests.TC101_RegistrationTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TC101_RegistrationTest.TC_101_Registration()[pri:1, instance:tests.TC101_RegistrationTest@60b4beb4]" name="TC_101_Registration" class="tests.TC101_RegistrationTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-10-04T01:48:50 IST" name="AllTest" finished-at="2024-10-04T01:48:56 IST" duration-ms="6780">
+      <class name="tests.TC100_LoginTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:tests.TC100_LoginTest@7d286fb6]" started-at="2024-10-04T01:48:50 IST" name="setDriver" finished-at="2024-10-04T01:48:52 IST" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="TC_100_Login()[pri:1, instance:tests.TC100_LoginTest@7d286fb6]" started-at="2024-10-04T01:48:52 IST" name="TC_100_Login" finished-at="2024-10-04T01:48:56 IST" duration-ms="3461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_100_Login -->
+        <test-method signature="HomePageVarification()[pri:0, instance:tests.TC100_LoginTest@7d286fb6]" started-at="2024-10-04T01:48:56 IST" name="HomePageVarification" finished-at="2024-10-04T01:48:56 IST" depends-on-methods="tests.TC100_LoginTest.TC_100_Login" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageVarification -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.TC100_LoginTest@7d286fb6]" started-at="2024-10-04T01:48:56 IST" name="quitDriver" finished-at="2024-10-04T01:48:56 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.TC100_LoginTest -->
+      <class name="tests.TC101_RegistrationTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:tests.TC101_RegistrationTest@60b4beb4]" started-at="2024-10-04T01:48:50 IST" name="setDriver" finished-at="2024-10-04T01:48:52 IST" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="TC_101_Registration()[pri:1, instance:tests.TC101_RegistrationTest@60b4beb4]" started-at="2024-10-04T01:48:52 IST" name="TC_101_Registration" finished-at="2024-10-04T01:48:52 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_101_Registration -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.TC101_RegistrationTest@60b4beb4]" started-at="2024-10-04T01:48:52 IST" name="quitDriver" finished-at="2024-10-04T01:48:52 IST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.TC101_RegistrationTest -->
+    </test> <!-- AllTest -->
+  </suite> <!-- AllTest -->
+</testng-results>
